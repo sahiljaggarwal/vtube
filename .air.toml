@@ -1,0 +1,10 @@
+tmp_dir = "build"
+
+[build]
+    bin = "./build/vtube.exe"
+    cmd = "go build -o ./build/vtube.exe ./cmd"
+
+[log]
+    time = true
+    color = true
+    
